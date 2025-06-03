@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #74ebd5 30%, #9face6 70%);
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    transition: background 0.3s;
+}
+.left-image, .right-image {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+nav ul li a:hover {
+    background: #555;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.Missal {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.texto-Missal {
+    flex: 1 1 50%;
+    padding: 1rem;
+    text-align: justify;
+}
+
+.image {
+    flex: 1 1 50%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.map-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #006400;
+    margin-top: 0;
+}
+.iframe {
+    border: none;
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .Missal {
+        flex-direction: column;
+    }
+
+    .image {
+        margin-bottom: 1rem;
+    }
+
+    .texto-Missal {
+        text-align: justify;
+    }
+}
